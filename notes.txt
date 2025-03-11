@@ -1,0 +1,5 @@
+composer create-project laravel/laravel ninja-manager
+php artisan make:migration create_ninjas_table
+php artisan migrate
+php artisan make:model Ninja
+php artisan make:controller NinjaController
